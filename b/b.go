@@ -3,9 +3,9 @@ package b
 import (
 	"fmt"
 
+	"Bypass-Import-Cycle/bridge/a"
+	"Bypass-Import-Cycle/bridge/b"
 	"Bypass-Import-Cycle/bridge/context"
-	"Bypass-Import-Cycle/bridge/parameter/a"
-	"Bypass-Import-Cycle/bridge/parameter/b"
 )
 
 type B struct {

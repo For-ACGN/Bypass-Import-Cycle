@@ -1,8 +1,8 @@
 package context
 
 import (
-	"Bypass-Import-Cycle/bridge/parameter/a"
-	"Bypass-Import-Cycle/bridge/parameter/b"
+	"Bypass-Import-Cycle/bridge/a"
+	"Bypass-Import-Cycle/bridge/b"
 )
 
 type Context struct {

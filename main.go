@@ -5,9 +5,9 @@ import (
 
 	"Bypass-Import-Cycle/a"
 	"Bypass-Import-Cycle/b"
+	p_a "Bypass-Import-Cycle/bridge/a"
+	p_b "Bypass-Import-Cycle/bridge/b"
 	"Bypass-Import-Cycle/bridge/context"
-	p_a "Bypass-Import-Cycle/bridge/parameter/a"
-	p_b "Bypass-Import-Cycle/bridge/parameter/b"
 )
 
 func main() {
